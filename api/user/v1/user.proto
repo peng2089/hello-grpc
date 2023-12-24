@@ -1,0 +1,22 @@
+syntax = "proto3";
+
+package user.v1;
+option go_package = "my_project/api/user/v1";
+
+service User {
+    rpc Create(CreateUserRequest)returns(CreateUserReply);
+}
+
+message UserData {
+    int64 id = 1;
+    string name = 2;
+    int64 age = 3;
+}
+
+message CreateUserRequest {
+    string name = 1; // 姓名
+    int64 age = 2; // 年龄
+}
+message CreateUserReply {
+    int64 id = 1;
+}

@@ -1,0 +1,7 @@
+# project
+bin/
+vendor/
+
+# develop tools
+.vscode/
+.idea/
