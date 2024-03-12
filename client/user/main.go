@@ -8,7 +8,7 @@ import (
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/credentials/insecure"
 
-	pb "my_project/api/user"
+	pb "hello-grpc/api/user"
 )
 
 func main() {

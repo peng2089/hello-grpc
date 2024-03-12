@@ -1,4 +1,4 @@
-module my_project
+module hello-grpc
 
 go 1.19
 
